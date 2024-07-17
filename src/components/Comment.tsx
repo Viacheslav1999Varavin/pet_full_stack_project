@@ -39,7 +39,7 @@ React.useEffect(() => {
 <ul className=' flex justify-between h-5xl mb-28 overflow-hidden '  >
         {comments.map((e,i)=>{
           return(
-          <li key={i} className='basis-1/3 grow shrink-0'>
+          <li key={i} className='basis-1/3 grow shrink-0 mr-2'>
           <figure className="bg-pink max-h-full rounded-3xl w-96 h-96  pt-8 ">
       <picture>
       <Image width={60} height={30} className="my-14 mx-auto" src={e.avatar} alt="" />
